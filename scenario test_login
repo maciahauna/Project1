@@ -1,1 +1,12 @@
-
+curl -X POST \
+  http://api-dev.femaledaily.net/app/v1/login \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'device: 3' \
+  -H 'key: client03-TSbs94s3q5H9PP2yNPBr' \
+  -H 'postman-token: 71e23fb4-68f2-7ee9-db22-4b29564b627c' \
+  -H 'version: 1.5' \
+  -d '{
+	"username": "maciatest",
+	"password": "test123"
+}'
